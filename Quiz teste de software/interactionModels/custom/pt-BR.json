@@ -1,0 +1,558 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Suspender",
+            "Descontinuar",
+            "Abandonar",
+            "Terminar",
+            "Interromper",
+            "Desistir",
+            "Revogar",
+            "Anular"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Recurso",
+            "Direcionamento",
+            "Esclarecimento",
+            "Aconselhamento",
+            "Socorro",
+            "Auxílio",
+            "Apoio",
+            "Orientação",
+            "Assistência",
+            "Suporte",
+            "Existe algum botão de ajuda que eu possa pressionar para receber orientações",
+            "Preciso de um guia ou tutorial que possa me oferecer ajuda passo a passo.",
+            "Estou com dificuldades e preciso de alguma ajuda para progredir no jogo",
+            "Existe alguma função de ajuda disponível para entender as regras",
+            "Gostaria de receber algumas dicas ou ajuda para melhorar no jogo.",
+            "Preciso de ajuda para entender como jogar. Pode me explicar novamente",
+            "Como posso obter ajuda para entender as instruções do jogo",
+            "Preciso de ajuda para entender as regras do jogo."
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Estou satisfeito por enquanto. Vou parar de jogar",
+            "Gostaria de finalizar o jogo. Posso ver meu resultado final",
+            "Vou parar por aqui. Talvez eu retome mais tarde",
+            "Decidi encerrar a partida. Foi divertido jogar",
+            "Quero parar de jogar. Podemos continuar em outro momento",
+            "Estou pronto para interromper o jogo.",
+            "Desejo parar de jogar. Obrigado pela experiência.",
+            "Gostaria de encerrar o jogo agora.",
+            "pode parar",
+            "para",
+            "pare",
+            "pare aqui",
+            "quero parar aqui ",
+            "Não quero mais jogar ",
+            "finalizar",
+            "finaliza",
+            "finaliza o jogo",
+            "até mais",
+            "não quero jogar mais ",
+            "fechar",
+            "parar",
+            "stop",
+            "Encerrar"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "olá",
+            "como vai você",
+            "diga oi mundo",
+            "diga oi",
+            "oi",
+            "diga olá mundo",
+            "diga olá"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "resposta",
+              "type": "respostas"
+            }
+          ],
+          "name": "AnswerIntent",
+          "samples": [
+            "Para mim a opção {resposta} parece ser a resposta correta.",
+            "Acredito que a resposta correta seja a opção {resposta}",
+            "Minha escolha é a opção {resposta} dúvida",
+            "Eu seleciono a opção {resposta} como minha escolha",
+            "Opto pela alternativa {resposta}",
+            "Eu acredito que a opção {resposta} seja a resposta correta.",
+            "A resposta correta é a opção {resposta} na minha opinião.",
+            "Eu escolho a opção {resposta} como minha resposta.",
+            "Minha resposta é a opção {resposta}",
+            "Eu escolho a opção {resposta}",
+            "proxima pergunta",
+            "proxima",
+            "outra pergunta",
+            "resposta correta é c",
+            "resposta correta é b",
+            "resposta correta é a",
+            "C",
+            "B",
+            "A",
+            "deve ser {resposta}",
+            "eu acho que é {resposta}",
+            "correto {resposta}",
+            "isso reposta {resposta}",
+            "isso {resposta}",
+            "certerza que é {resposta}",
+            "resposta é {resposta}",
+            "acho que é {resposta}",
+            "a resposta é {resposta}",
+            "a.",
+            "b.",
+            "c.",
+            "resposta {resposta}",
+            "minha resposta é {resposta}",
+            "{resposta}",
+            "é {resposta}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "Sim estou pronto para enfrentar qualquer obstáculo que aparecer.",
+            "Sim estou pronto para mostrar do que sou capaz",
+            "Sim estou pronto e animado para dar o meu melhor",
+            "Sim estou totalmente preparado",
+            "Sim estou ansioso para começar",
+            "Com certeza Estou pronto para encarar o desafio.",
+            "Sim estou preparado para começar",
+            "Sim estou pronto Vamos la",
+            "pronto",
+            "sempre pronto",
+            "prontissimo",
+            "vamos la ",
+            "Estou pronto",
+            "Afirmativo",
+            "pular para a próxima",
+            "próxima",
+            "pular",
+            "beleza",
+            "iniciar",
+            "ok",
+            "vamos lá",
+            "sim"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "Não ainda estou verificando algumas informações. Preciso de mais tempo antes de estar pronto.",
+            "Não ainda estou fazendo os últimos ajustes. Devo estar pronto em alguns minutos.",
+            "Não  ainda estou revisando alguns detalhes. Preciso de mais algum tempo.",
+            "Não infelizmente ainda não estou pronto. Ainda estou trabalhando nisso.",
+            "Não ainda estou organizando algumas coisas. Mas estarei pronto em breve",
+            "Não ainda estou me preparando. Preciso de mais algum tempo.",
+            "Nao posso brincar",
+            "não posso jogar agora ",
+            "nao quero",
+            "nao quero mais até a proxima",
+            "Não quero jogar ",
+            "negativo",
+            "nao quero mais jogar",
+            "Não estou pronto",
+            "nops",
+            "No",
+            "Não"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "sim",
+              "type": "sim"
+            }
+          ],
+          "name": "QuestionIntent",
+          "samples": [
+            "pronto",
+            "estou pronto",
+            "sim",
+            "chamaa",
+            "manda ai",
+            "manda ver",
+            "go",
+            "lets go",
+            "marcha",
+            "bora la",
+            "bora",
+            "iniciar quiz",
+            "start",
+            "star",
+            "começar",
+            "vamos la"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "pular",
+              "type": "pular"
+            }
+          ],
+          "name": "SkipIntent",
+          "samples": [
+            "Não estou interessado nesse assunto então vou pular essa pergunta.",
+            "Prefiro pular essa pergunta e me concentrar nas que tenho mais chances de acertar.",
+            "Estou com pressa então vou pular algumas perguntas para terminar mais rápido.",
+            "Não estou confiante o suficiente para responder essa pergunta  então vou pular.",
+            "Acho que essa pergunta é muito difícil então vou pular.",
+            "Não tenho conhecimento sobre esse tópico então vou pular essa pergunta.",
+            "decidi pular essa pergunta para economizar tempo.",
+            "Não tenho certeza da resposta então acho melhor pular essa.",
+            "Vou pular essa questão e ver se a próxima é mais fácil.",
+            "Eu prefiro pular essa pergunta e ir para a próxima.",
+            "Deixar de lado",
+            "Ausentar-se",
+            "Abster-se",
+            "Fugir",
+            "Escapar",
+            "Evitar",
+            "Passar por cima",
+            "Ignorar",
+            "Desviar",
+            "Saltar",
+            "manda outra pergunta ",
+            "pula essa",
+            "Pular pergunta",
+            "Pular questão",
+            "Vamos para a proxima questão ",
+            "fale outra pergunta",
+            "quero ouvir outra pergunta ",
+            "vamos para a proxima pergunta ",
+            "outra pergunta ",
+            "outra ",
+            "PULAR PARA A PROXIMA",
+            "PULAR"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [
+            "Acho que perdi algum detalhe. Seria possível repetir a explicação",
+            "Não consegui captar tudo. Poderia repetir lentamente",
+            "Gostaria de pedir que repetisse a informação por favor",
+            "Desculpe você pode repetir a opção de resposta",
+            "Se não se importa poderia repetir isso mais uma vez",
+            "Poderia repetir o que disse",
+            "Por favor repita a pergunta",
+            "quero tentar de novo",
+            "vamos de novo",
+            "por favor novamente ",
+            "por favor de novo",
+            "de novo de novo",
+            "fala a pergunta novamente ",
+            "fala a pergunta de novo",
+            "novamente ",
+            "de novo",
+            "repetir",
+            "pode repetir ",
+            "repete por favor ",
+            "repete"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "RestartGameIntent",
+          "samples": [
+            "Decidi começar do zero novamente e ver se consigo alcançar uma pontuação mais alta",
+            "Vou reiniciar o jogo e me concentrar em acertar todas as perguntas desta vez.",
+            "Quero recomeçar o jogo e ver se consigo obter um resultado melhor.",
+            "Estou ansioso para reiniciar o jogo e superar meus erros anteriores.",
+            "Decidi recomeçar o jogo para tentar melhorar minha pontuação",
+            "Vou dar uma nova chance e reiniciar o jogo",
+            "Eu quero reiniciar o jogo desde o início.",
+            "Gostaria de começar o jogo novamente.",
+            "reiniciar jogo",
+            "vamos de novo",
+            "vamos jogar de novo",
+            "novo jogo",
+            "Começar novo jogo",
+            "Reiniciar "
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "score",
+              "type": "score"
+            }
+          ],
+          "name": "ScoreIntent",
+          "samples": [
+            "Total",
+            "Estatística",
+            "Avaliação",
+            "Registro",
+            "Contagem",
+            "Classificação",
+            "Resultado",
+            "Marcação",
+            "Pontuação",
+            "Placar",
+            "Estou empolgado para descobrir quantos pontos conquistei.",
+            "Será que alcancei uma pontuação alta",
+            "Fico ansioso para saber qual é o meu score.",
+            "Quero saber quantos pontos acumulei até o momento.",
+            "Estou curioso para descobrir quantos pontos tenho.",
+            "Gostaria de saber qual é o meu score no momento.",
+            "Quantos pontos eu fiz até agora",
+            "Qual é o meu score atual",
+            "fala meus pontos por favor",
+            "fala meu score por favor",
+            "quantas perguntas ja foram ",
+            "quantas perguntas eu acertei",
+            "quantas quetões eu acertei",
+            "fala quantos pontos eu tenho",
+            "fala minha pontuação",
+            "qual é minha pontuação alexa",
+            "qual é a minha pontuação atual",
+            "qual é minha pontuação",
+            "quero saber meus pontos",
+            "quantos pontos eu tenho",
+            "fala o score",
+            "score",
+            "ponto",
+            "diga meus ponto",
+            "diga meus pontos",
+            "qual é meu ponto",
+            "qual é meu score",
+            "fala meus pontos",
+            "fala meu ponto ",
+            "fala meu score "
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "RecommendAndAddToCart",
+          "samples": [
+            "Adicionar ao carrinho",
+            "Devo adicionar isso ao meu carrinho",
+            "Recomendar e adicionar ao meu carrinho"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "d"
+                ],
+                "value": "D"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "c"
+                ],
+                "value": "C"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "b"
+                ],
+                "value": "B"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "a"
+                ],
+                "value": "A"
+              }
+            }
+          ],
+          "name": "respostas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "nao sei"
+              }
+            },
+            {
+              "name": {
+                "value": "Não sei"
+              }
+            },
+            {
+              "name": {
+                "value": "PULAR PARA A PROXIMA"
+              }
+            },
+            {
+              "name": {
+                "value": "PULAR"
+              }
+            },
+            {
+              "name": {
+                "value": "PROXIMA"
+              }
+            }
+          ],
+          "name": "pular"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "quantos pontos eu fiz"
+              }
+            },
+            {
+              "name": {
+                "value": "fala meu ponto"
+              }
+            },
+            {
+              "name": {
+                "value": "diga meu ponto"
+              }
+            },
+            {
+              "name": {
+                "value": "diga meus pontos"
+              }
+            },
+            {
+              "name": {
+                "value": "pontos"
+              }
+            },
+            {
+              "name": {
+                "value": "ponto"
+              }
+            },
+            {
+              "name": {
+                "value": "pode falar meus pontos "
+              }
+            },
+            {
+              "name": {
+                "value": "quero saber meus pontos"
+              }
+            },
+            {
+              "name": {
+                "value": "fala meus pontos"
+              }
+            },
+            {
+              "name": {
+                "value": "quero saber meu score"
+              }
+            },
+            {
+              "name": {
+                "value": "diga meu score"
+              }
+            },
+            {
+              "name": {
+                "value": "fala meu score"
+              }
+            },
+            {
+              "name": {
+                "value": "qual é o meu score"
+              }
+            }
+          ],
+          "name": "score"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Sem sombra de dúvidas"
+              }
+            },
+            {
+              "name": {
+                "value": "Certo"
+              }
+            },
+            {
+              "name": {
+                "value": "Efetivamente"
+              }
+            },
+            {
+              "name": {
+                "value": "Assim é"
+              }
+            },
+            {
+              "name": {
+                "value": "Sem dúvida"
+              }
+            },
+            {
+              "name": {
+                "value": "Verdadeiro"
+              }
+            },
+            {
+              "name": {
+                "value": "Exatamente"
+              }
+            },
+            {
+              "name": {
+                "value": "Concordo"
+              }
+            },
+            {
+              "name": {
+                "value": "Com certeza"
+              }
+            },
+            {
+              "name": {
+                "value": "Claro"
+              }
+            }
+          ],
+          "name": "sim"
+        }
+      ],
+      "invocationName": "quiz teste de software"
+    }
+  }
+}
